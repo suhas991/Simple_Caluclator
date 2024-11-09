@@ -23,7 +23,7 @@ Docker Build Process
 
 ![Screenshot 2024-11-09 222813](https://github.com/user-attachments/assets/b15f4385-f5a5-4e0a-a9c5-c602d42a7c3e)
 
-Docker Run Process
+Docker Push Process
 
 ![Screenshot 2024-11-09 222845](https://github.com/user-attachments/assets/a9a6278c-3b83-4d7c-8e6b-7b83aa21880f)
 
