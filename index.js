@@ -45,3 +45,38 @@ document.querySelector('.but1').addEventListener('click',function(){
   equ=""
   val.innerHTML=equ;
 })
+
+document.querySelector('.switch2').addEventListener('click',function(){
+   document.querySelector('body').style.backgroundColor='hsl(0, 0%, 90%)';
+   document.querySelector('.header').style.color= 'black';
+   document.querySelector('.switch2').style.backgroundColor=' hsl(25, 98%, 40%)'; 
+   document.querySelector('.switch').style.backgroundColor=' hsl(0, 5%, 81%)';
+   document.querySelector('.display').style.backgroundColor='hsl(0, 0%, 93%)';
+   document.querySelector('.value').style.color='black';
+   document.querySelector('.container').style.backgroundColor=' hsl(0, 5%, 81%)';
+   document.querySelector('#del').style.backgroundColor='hsl(185, 42%, 37%)';
+   document.querySelector('.but1').style.backgroundColor='hsl(185, 42%, 37%)';
+   document.querySelector('.switch1').style.backgroundColor='hsl(0, 5%, 81%)';
+   document.querySelector('.switch3').style.backgroundColor='hsl(0, 5%, 81%)';
+})
+
+document.querySelector('.switch3').addEventListener('click',function(){
+
+  document.querySelector('body').style.backgroundColor='hsl(268, 75%, 9%)';
+  document.querySelector('.header').style.color= 'hsl(52, 100%, 62%)';
+  document.querySelector('.switch3').style.backgroundColor='hsl(176, 100%, 44%)'; 
+  document.querySelector('.switch').style.backgroundColor=' hsl(0, 5%, 81%)';
+  document.querySelector('.display').style.backgroundColor='hsl(268, 71%, 12%)';
+  document.querySelector('.value').style.color='hsl(52, 100%, 62%)';
+  document.querySelector('.container').style.backgroundColor='hsl(268, 71%, 12%)';
+  document.querySelector('#del').style.backgroundColor='hsl(185, 42%, 37%)';
+  document.querySelector('.but1').style.backgroundColor='hsl(185, 42%, 37%)';
+  const all = document.querySelectorAll('.button');
+  for(a in all){
+    console.log('clicked')
+    console.log(a.nodeName)
+  }
+
+  document.querySelector('.switch2').style.backgroundColor='hsl(0, 5%, 81%)';
+  document.querySelector('.switch1').style.backgroundColor='hsl(0, 5%, 81%)';
+})
